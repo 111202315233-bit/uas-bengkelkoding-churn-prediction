@@ -21,7 +21,7 @@ except Exception as e:
     st.error(f"Gagal memuat model: {e}")
 
 # 3. Header aplikasi
-st.title("📊 Aplikasi Prediksi Churn Pelanggan")
+st.title(" Aplikasi Prediksi Churn Pelanggan")
 st.markdown("Aplikasi ini menggunakan model Random Forest terbaik untuk memprediksi churn pelanggan berdasarkan aktivitas transaksi mereka.")
 
 # 4. Membuat form input fitur pada Sidebar
